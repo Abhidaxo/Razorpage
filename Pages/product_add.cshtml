@@ -1,0 +1,10 @@
+﻿@page
+@model WebApplication2.Pages.product_addModel
+@{
+}
+<form method="POST">
+    <input asp-for="products.product_name" placeholder="product Name" /> 
+    <input asp-for="products.price" placeholder="price"/>
+    <input asp-for="products.quantity" placeholder="Quantity" />
+    <input type="submit" value="ADD"/>
+</form>
